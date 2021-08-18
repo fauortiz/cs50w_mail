@@ -1,0 +1,33 @@
+textarea {
+    min-height: 400px;
+}
+
+.mailbox-email {
+    border-top: 1px solid rgb(75, 75, 75);
+    border-left: 1px solid rgb(75, 75, 75);
+    border-right: 1px solid rgb(75, 75, 75);
+    background-color: white;
+    padding: 0.5em;
+    /* width: 100%; */
+    /* just to test out infinite scroll */
+    /* height:300px; */
+}
+.mailbox-email:last-child {
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+.mailbox-email:hover {
+    background-color: rgb(183, 220, 255);
+    cursor: pointer;
+}
+.read {
+    background-color: rgb(192, 192, 192);
+}
+
+#email-body {
+    white-space: pre-wrap;
+}
+.email-button {
+    margin-top: 0.5em;
+    margin-right: 0.3em;
+}
