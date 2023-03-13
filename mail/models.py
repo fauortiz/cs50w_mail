@@ -5,7 +5,7 @@ from django.db import models
 class User(AbstractUser):
     pass
 
-
+# 15:42 lec 3... or lec 4?
 class Email(models.Model):
     user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="emails")
     sender = models.ForeignKey("User", on_delete=models.PROTECT, related_name="emails_sent")
